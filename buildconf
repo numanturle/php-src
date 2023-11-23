@@ -5,7 +5,7 @@
 PHP_AUTOCONF=${PHP_AUTOCONF:-autoconf}
 PHP_AUTOHEADER=${PHP_AUTOHEADER:-autoheader}
 force=0
-debug=0
+debug=1
 
 # Go to project root.
 cd $(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
